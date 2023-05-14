@@ -8,7 +8,7 @@ library(data.table)
 library(stringr)
 ```
 
-Reading all the files that are in MassBank and merging the information into one file.
+Reading all the files that are in MassBank (https://zenodo.org/record/7148841#.ZGEK_3ZBxpI) and merging the information into one file.
 Each row in this combined file has the following information:
 1. MassBank file name - for later searching (for generating the files for SIRIUS);
 2. compound's SMILES - for mapping the compounds that have mass spectra with the compounds in the dataset obtained while running the code `Tox21_preprocessing_II.ipynb`;
