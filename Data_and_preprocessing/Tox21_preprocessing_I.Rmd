@@ -8,7 +8,7 @@ library(dplyr)
 library(data.table)
 ```
 
-Merging all the input (.smiles) files (every assay has a separate file)
+Merging all the input (.smiles; https://tripod.nih.gov/tox21/challenge/) files (every assay has a separate file)
 ```{r}
 files_smiles <- list.files('./SMILES', pattern='*.smiles', full.names=T)
 
